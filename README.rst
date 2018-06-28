@@ -1,5 +1,5 @@
-Hey Gurl Fork of PyStan
+Hey Gurl fork of PyStan
 
-# Install
+Install
 
    pip install git+https://github.com/ahartikainen/hey_gurl
