@@ -16,7 +16,7 @@ from emoji import emojize
 logger = logging.getLogger('pystan')
 logger.addHandler(logging.NullHandler())
 if len(logger.handlers) == 1:
-    logging_format = "Hey Gurl {}: ".format(emojize(":rainbow:"))
+    logging_format = "Hey Gurl {}: ".format(emojize(":rainbow:")) + "%(message)s"
     logging.basicConfig(level=logging.INFO, format=logging_format)
 
 # following PEP 386
